@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/* ===========
+==== FORM
+=========== */
+
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+/* ===========
+==== FORM
+=========== */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% viewport height */
+}
+/* ======================
+--------- navbar 
+=================== */
+.navbar {
+  background-color: black !important;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  background-color: black !important;
+  color: white !important;
+}
+
+.watermark {
+  position: absolute;
+  color: black;
+  opacity: 1.25;
+  font-size: 3em;
+  width: 100%;
+  top: 8%;
+  text-align: center;
+  z-index: 0;
+}
